@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    tools:context=".ui.favourite.fragment.FavouriteImageItemFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="#99000000">
+
+                <TextView
+                    android:id="@+id/author"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|start"
+                    android:layout_marginStart="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/likeNumber"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="95dp"
+                    android:textColor="@color/white"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:id="@+id/nolike"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="60dp"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_nolike" />
+
+                <ImageView
+                    android:id="@+id/like"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/ic_like" />
+
+                <ImageView
+                    android:id="@+id/download"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="center|end"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_download" />
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/reloadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/reload_button"
+        android:visibility="invisible" />
+</FrameLayout>

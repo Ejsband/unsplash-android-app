@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Unsplash</string>
+    <string name="title_main">Main</string>
+    <string name="title_favourite_collection_list">Collections</string>
+    <string name="title_favourite_image_list">Collection Images</string>
+    <string name="title_favourite_image_item">Unsplash Image</string>
+    <string name="title_profile">Profile</string>
+    <string name="reload_button">reload</string>
+    <string name="search_button">search</string>
+    <string name="title_search">Results</string>
+    <string name="button_login">Login</string>
+    <string name="title_boarding">Boarding</string>
+    <string name="description" translatable="false">Unsplash</string>
+    <string name="user_likes">IMAGES YOU LIKE</string>
+    <string name="title_profile_image">Photo</string>
+</resources>

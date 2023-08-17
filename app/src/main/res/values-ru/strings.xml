@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unsplash</string>
+    <string name="title_main">Главная</string>
+    <string name="title_favourite_collection_list">Мои коллекции</string>
+    <string name="title_favourite_image_list">Мои фотографии</string>
+    <string name="title_favourite_image_item">Фотография</string>
+    <string name="title_profile">Профиль</string>
+    <string name="reload_button">перезагрузить</string>
+    <string name="search_button">поиск</string>
+    <string name="title_search">Результаты</string>
+    <string name="button_login">войти</string>
+    <string name="title_boarding">Лендинг</string>
+    <string name="user_likes">Понравившиеся фотографии</string>
+    <string name="title_profile_image">Фото</string>
+</resources>
